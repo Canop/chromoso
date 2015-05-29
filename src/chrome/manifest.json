@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "ChromoSO",
 	"description": "Chrome Extension for Stack Overflow",
-	"version": "0.2",
+	"version": "0.3",
 	"icons": {
 		"128":"chromoso-icon-big.png"
 	},
@@ -13,7 +13,8 @@
 			"run_at" : "document_end",
 			"js": [
 				"cso-main.js"
-			]
+			],
+			"css": [ "cso.css" ]
 		}
 	]
 }
