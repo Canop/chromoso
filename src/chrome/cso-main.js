@@ -1,12 +1,14 @@
 
 var badQuestionPatterns = [
 	/document\.write/,
-	/beginner/, /newbie/, /plz/i, /please/i, /\bsir\b/i, /urgent/i, /bear with me/i,
-	/bootstrap/i, /carousel/i
+	/beginner/, /newbie/, /plz/i, /please/i, /\bsir\b/i, /urgent/i, /bear with me/i,  /quick question/i,
+	/enter code here/i,
+	/bootstrap/i, /carousel/i,
+	/thanks/i
 ];
 var probablyBadQuestionPatterns = [
 	/not working/i,
-	/thanks/i, /help/i
+	/help/i
 ];
 
 
